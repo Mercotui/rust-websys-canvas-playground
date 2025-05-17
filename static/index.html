@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rust web-sys Canvas Example</title>
+    <style>
+        body { font-family: sans-serif; }
+        canvas { border: 1px solid #222; }
+    </style>
+</head>
+<body>
+    <h1>Rust web-sys + wasm-bindgen: Interactive Canvas</h1>
+    <canvas id="canvas" width="500" height="400"></canvas>
+    <script type="module">
+        import init from "./pkg/rust_websys_canvas_playground.js";
+        init();
+    </script>
+</body>
+</html>
