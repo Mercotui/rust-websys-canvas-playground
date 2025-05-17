@@ -21,7 +21,7 @@ pub fn start() -> Result<(), JsValue> {
         .unwrap()
         .dyn_into::<CanvasRenderingContext2d>()?;
 
-    let view = ClickView::new(canvas, context);
+    let view = ClickView::new(canvas, context, window);
     view.attach_click_handler()?;
 
     Ok(())

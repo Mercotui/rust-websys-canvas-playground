@@ -3,6 +3,10 @@
 This is a vibe-coded HTML5 canvas test using `web-sys` and `wasm-bindgen`.
 Let's see if LLMs can teach me some Rust techniques.
 
+Conclusion after some prompts: 
+Eh, yeah it can teach me, but man I dislike the vibe-coding workflow.
+It's like babysitting a really smart toddler.
+
 ## Build & Run
 
 1. Install [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/):
